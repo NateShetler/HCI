@@ -1,5 +1,5 @@
-Nathaniel Shetler
-PA1
+Nathaniel Shetler   
+PA1   
 This program is made for Windows. It was made in Microsoft Visual Studio. You can compile via the command line. 
 There are executable files in each of the sub directories of the parts of the project.
 
