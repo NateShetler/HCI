@@ -66,9 +66,9 @@ void output_func(bool &quit, bool &anotherInt, int &display, bool &stop, int &nu
 
     while (anotherInt)
     {
-        std::cout << "Please enter an integer or ‘q’ to quit." << std::endl;
+        std::cout << "Please enter an integer or 'q' to quit." << std::endl;
        
-        std::this_thread::sleep_for (std::chrono::seconds(5));
+        std::this_thread::sleep_for (std::chrono::seconds(3));
 
         // Reset loopInt
         loopInt = 0;
