@@ -5,7 +5,6 @@
 #include <thread>
 #include <chrono>
 
-// This all needs to be fixed before turning in
 
 void doCalculation(int &numSquareInt, bool &quit)
 {
@@ -14,7 +13,7 @@ void doCalculation(int &numSquareInt, bool &quit)
     // Display counter
     int display = 0;
     // Used for the results of the square roots
-    const double pi = M_PI;
+    const double pi = 3.14159;
     // Peek into the stream
     char peekChar;
 
@@ -38,10 +37,7 @@ void doCalculation(int &numSquareInt, bool &quit)
             // Add to calculations
             ++numCalcs;                    
         }
-
-        //std::cout << numCalcs << std::endl;
     }
-    std::cout << std::cin.peek() << std::endl;
 }
 
 int main()
@@ -58,11 +54,11 @@ int main()
     // Used for calculations
     int numSquareInt = 0;
     // Used for the results of the square roots
-    const double pi = M_PI;
+    const double pi = 3.14159;
 
     while (anotherInt)
     {
-        std::cout << "Please enter an integer or ‘q’ to quit." << std::endl;
+        std::cout << "Please enter an integer or 'q' to quit." << std::endl;
         std::cin >> numSquares;
         std::cout << "\n";
 

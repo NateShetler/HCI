@@ -13,11 +13,11 @@ int main()
     // Used for calculations
     int numSquareInt = 0;
     // Used for the results of the square roots
-    const double pi = M_PI;
+    const double pi = 3.14159;
 
     while (anotherInt)
     {
-        std::cout << "Please enter an integer or ‘q’ to quit." << std::endl;
+        std::cout << "Please enter an integer or 'q' to quit." << std::endl;
         std::cin >> numSquares;
         std::cout << "\n";
 
